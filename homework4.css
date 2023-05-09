@@ -1,0 +1,90 @@
+header {
+    color:darkblue;
+
+
+}
+body {
+    background-color:rgb(118, 145, 218);
+    font-family: monospace;
+    font-size: 18px;
+}
+
+h1 {
+    color:darkblue;
+    text-align:center;
+    font-size: 50px;
+    font-family: monospace;
+
+}
+
+h2 {
+    color: darkblue;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo-container{
+    position: relative;
+    text-align: left;
+
+}
+
+.error{
+    color: red;
+    font-size: 11px;
+
+}
+
+table{
+    //border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0 15px;
+    text-align: left;
+}
+
+form {
+    margin: 10px 20% auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    
+}
+
+td{
+    padding: 10px;
+
+}
+
+footer{
+    color:darkblue;
+    text-align: center;
+}
+
+
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    text-align:center;
+    background: rgb(118, 145, 218);
+    color: darkblue;
+    font-size: 30px;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  
